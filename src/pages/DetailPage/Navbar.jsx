@@ -88,8 +88,9 @@ function Navbar() {
                     </Link>
 
                     <Link className='w-full cursor-pointer hover:opacity-[0.7] '
-                        onClick={handleClose}
+                        onClick={() => { navigate(`/SavedMenu`) }}
                         to='#' smooth={true}
+
                         offset={0} duration={500}>
                         SAVED
                     </Link>
